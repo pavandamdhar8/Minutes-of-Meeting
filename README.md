@@ -1,4 +1,4 @@
-# MOM Tracker – Meeting & Task Management System
+# MoM Tracker – Minutes of Meeting Tracker
 
 A comprehensive Meeting and Task Management System built using **PHP**, **MySQL**, and **XAMPP**. MOM Tracker empowers **Admins** and **Employees** to efficiently manage meetings, assign and track tasks, mark attendance, share notes, and receive timely notifications via system alerts and email.
 
@@ -72,20 +72,13 @@ A comprehensive Meeting and Task Management System built using **PHP**, **MySQL*
 5. For email functionality:
    - Set up **PHPMailer** or configure SMTP in your email script.
    - Enter your email credentials in `/email/notify.php`.
-6. Access the project via: `http://localhost/mom-tracker/`
+6. Access the project via: `http://localhost/mom/`
 
 ---
 
-## 📂 Project Structure
+## 📌 Future Enhancements
 
-/app                -> Core business logic and form processing
-/inc                -> Shared files (navbar, header, DB config)
-/uploads            -> Uploaded notes and files
-/email              -> Email handling scripts
-/tcpdf              -> PDF generation library
-index.php           -> Homepage
-login.php           -> Login and authentication
-dashboard.php       -> Role-based dashboards (Admin/Employee)
-meetings.php        -> Meeting creation and management
-tasks.php           -> Task assignment and tracking
-calendar.php        -> Real-time calendar view (optional feature)
+- AI-powered meeting summarization and action item extraction  
+- Integration with Google Calendar or Outlook  
+- Dashboard analytics for tasks and attendance trends  
+
